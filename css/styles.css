@@ -31,7 +31,6 @@ a {
   font-size: 16px;
 }
 .list-cont .contacts-link {
-  font-style: normal;
   color: #434455;
   font-weight: 400;
   font-size: 16px;
@@ -48,11 +47,10 @@ a {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.1;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  background-color: #2e2f42;
 }
 .hero-btn {
   cursor: pointer;
@@ -63,7 +61,8 @@ a {
   letter-spacing: 0.04em;
   color: #fff;
 }
-.hero-btn:hover {
+.hero-btn:hover,
+.hero-btn:focus {
   background-color: #404bbf;
 }
 .title-benefits {
@@ -83,9 +82,10 @@ a {
 .section-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 .section-text {
@@ -106,7 +106,6 @@ a {
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
-  background-color: #2e2f42;
   font-weight: 700;
   color: #4d5ae5;
   font-size: 18px;
@@ -123,5 +122,4 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  background-color: #2e2f42;
 }
