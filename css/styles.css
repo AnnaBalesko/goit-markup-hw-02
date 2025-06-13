@@ -30,6 +30,9 @@ a {
   font-weight: 500;
   font-size: 16px;
 }
+.header-address {
+  font-style: normal;
+}
 .list-cont .contacts-link {
   color: #434455;
   font-weight: 400;
@@ -43,7 +46,9 @@ a {
 .list-cont .contacts-link:focus {
   color: #404bbf;
 }
-
+.section-hero {
+  background-color: #2e2f42;
+}
 .hero-title {
   font-weight: 700;
   font-size: 56px;
@@ -78,6 +83,12 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.section-team {
+  background-color: #F4F4FD;
+}
+.item-team {
+  background-color: #FFFFFF;
 }
 .section-title {
   font-weight: 700;
